@@ -1,7 +1,6 @@
-const slider4Images = [
-"images/s2_25.jpg
-];
-
+/* =========================================================
+   SLIDER 1
+========================================================= */
 
 const slider1Images = [
     "images/1.jpg",
@@ -18,6 +17,31 @@ const slider1Images = [
     "images/13.jpg",
     "images/ultima.jpg"
 ];
+
+let index1 = 0;
+
+const slider1 = document.getElementById("slider1");
+
+if (slider1) {
+
+    setInterval(() => {
+
+        index1++;
+
+        if (index1 >= slider1Images.length) {
+            index1 = 0;
+        }
+
+        slider1.src = slider1Images[index1];
+
+    }, 2000);
+
+}
+
+
+/* =========================================================
+   SLIDER 2
+========================================================= */
 
 const slider2Images = [
     "images/s2_1.jpg",
@@ -50,57 +74,15 @@ const slider2Images = [
     "images/s2_28.jpg",
     "images/s2_29.jpg",
     "images/s2_30.jpg",
-    "images/s2_31.jpg",
-
-
+    "images/s2_31.jpg"
 ];
 
-let index4 = 0;
-let index1 = 0;
 let index2 = 0;
-let index3 = 0;
 
-
-const slider4 = document.getElementById("slider4");
-const slider1 = document.getElementById("slider1");
 const slider2 = document.getElementById("slider2");
-const slider3 = document.getElementById("slider3");
-
-
-
-if (slider4) {
-    setInterval(() => {
-
-        index4++;
-
-        if (index4 >= slider4Images.length) {
-            index4 = 0;
-        }
-
-        slider4.src = slider4Images[index4];
-
-    }, 2000);
-}
-
-
-
-if (slider1) {
-    setInterval(() => {
-
-        index1++;
-
-        if (index1 >= slider1Images.length) {
-            index1 = 0;
-        }
-
-        slider1.src = slider1Images[index1];
-
-    }, 2000);
-}
-
-
 
 if (slider2) {
+
     setInterval(() => {
 
         index2++;
@@ -112,7 +94,116 @@ if (slider2) {
         slider2.src = slider2Images[index2];
 
     }, 2000);
+
 }
 
 
+/* =========================================================
+   SLIDER 4
+========================================================= */
+
+const slider4Images = [
+    "images/my-photo.jpg",
+    "images/s1_1.jpg",
+    "images/s1_2.jpg",
+    "images/s1_3.jpg",
+    "images/s1_4.jpg",
+    "images/s1_5.jpg",
+    "images/s1_6.jpg",
+    "images/s1_7.jpg",
+    "images/s1_8.jpg",
+    "images/s1_9.jpg",
+    "images/s1_10.jpg",
+    "images/s1_11.jpg",
+    "images/s1_12.jpg",
+    "images/s1_13.jpg"
+];
+
+let index4 = 0;
+
+const slider4 = document.getElementById("slider4-image");
+
+if (slider4) {
+
+    setInterval(() => {
+
+        index4++;
+
+        if (index4 >= slider4Images.length) {
+            index4 = 0;
+        }
+
+        slider4.src = slider4Images[index4];
+
+    }, 700);
+
+}
+
+
+/* =========================================================
+   SLIDER 5
+========================================================= */
+
+const slider5Images = [
+    "images/pl_1.jpg",
+    "images/pl_2.jpg",
+    "images/pl_3.jpg",
+    "images/pl_4.jpg",
+    "images/pl_5.jpg",
+    "images/pl_6.jpg"
+];
+
+let index5 = 0;
+
+const slider5 = document.getElementById("slider5");
+
+if (slider5) {
+
+    setInterval(() => {
+
+        index5++;
+
+        if (index5 >= slider5Images.length) {
+            index5 = 0;
+        }
+
+        slider5.src = slider5Images[index5];
+
+    }, 2000);
+
+}
+
+
+/* =========================================================
+   SLIDER 6
+========================================================= */
+
+const slider6Images = [
+    "images/pl_7.jpg",
+    "images/pl_8.jpg",
+    "images/pl_9.jpg",
+    "images/pl_10.jpg",
+    "images/pl_11.jpg",
+    "images/pl_12.jpg"
+];
+
+let index6 = 0;
+
+const slider6 = document.getElementById("slider6");
+
+if (slider6) {
+
+    setInterval(() => {
+
+        index6++;
+
+        if (index6 >= slider6Images.length) {
+            index6 = 0;
+        }
+
+        slider6.src = slider6Images[index6];
+
+    }, 2000);
+
+}
 
