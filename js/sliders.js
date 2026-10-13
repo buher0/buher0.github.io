@@ -103,20 +103,20 @@ if (slider2) {
 ========================================================= */
 
 const slider4Images = [
-    "images/my-photo.jpg",
-    "images/s1_1.jpg",
-    "images/s1_2.jpg",
-    "images/s1_3.jpg",
-    "images/s1_4.jpg",
-    "images/s1_5.jpg",
-    "images/s1_6.jpg",
-    "images/s1_7.jpg",
-    "images/s1_8.jpg",
-    "images/s1_9.jpg",
-    "images/s1_10.jpg",
-    "images/s1_11.jpg",
-    "images/s1_12.jpg",
-    "images/s1_13.jpg"
+    "https://drive.google.com/file/d/1yItkiQ9C-gR2sj6EOxFOhAJqh3BC71Wi/view?usp=sharing",
+    "https://drive.google.com/file/d/1kJxQgBYi3f34kpBaddgDw40k5dnWZpdO/view?usp=sharing",
+    "https://drive.google.com/file/d/1aWiPRWxF-_TSJzILgxN5B_1arBMdTGai/view?usp=sharing",
+    "https://drive.google.com/file/d/1OToileXZ0i50JW-Ipsf89fBKuOd_k0nv/view?usp=sharing",
+    "https://drive.google.com/file/d/1X5r0rIUwv-H3XrBJhGtJdSFzO82gAlPj/view?usp=sharing",
+    "https://drive.google.com/file/d/1FMImudtCNzv6WfUo73jJa9Qeq3Evnu9D/view?usp=sharing",
+    "https://drive.google.com/file/d/1Q3Gy4V3C9hfdxVY_LKWtjVB4nV-kW6WD/view?usp=sharing",
+    "https://drive.google.com/file/d/1JQxYxI9bBUciC-XcOlJd6ruStv2BaAYS/view?usp=sharing",
+    "https://drive.google.com/file/d/195_x-s5k2Ism09D1-ISsqEoaVjdzLIF-/view?usp=sharing",
+    "https://drive.google.com/file/d/1JZ1lCpQGjgpYRSVSkiXNBL6ZWD4sYc_L/view?usp=sharing",
+    "https://drive.google.com/file/d/1v01fwWUyotx9rYimSLu9pBho2xgiZg-R/view?usp=sharing",
+    "https://drive.google.com/file/d/1sZ7u8aGATzXP7pngBBalLgznz7KoYJWi/view?usp=sharing",
+    "https://drive.google.com/file/d/1U-zSwh3xEy-JYIIhrLoW7LJ7SxTBE_S1/view?usp=sharing",
+    "https://drive.google.com/file/d/1WnFtFv5yMc3-ZwETLnrH9oKbuJPVP-X7/view?usp=sharing"
 ];
 
 let index4 = 0;
