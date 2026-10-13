@@ -3,10 +3,10 @@
 ========================================================= */
 
 const slider1Images = [
-    "images/1.jpg",
-    "images/2.jpg",
+    "https://drive.google.com/file/d/1P99JJFJooXfbXdl_Nl9pnGXWiG3mcZ78/view?usp=sharing",
+    "https://drive.google.com/file/d/1q0to8eaFVlSxN4N7-DYndhl31AEKPz_O/view?usp=sharing",
     "images/3_p.jpg",
-    "images/4_p.jpg",
+    "https://drive.google.com/file/d/1XH3Xk3q-dkNmKCMAMXr_EXnvqKMM2I-M/view?usp=sharing",
     "images/5_p.jpg",
     "images/6.jpg",
     "images/7.jpg",
