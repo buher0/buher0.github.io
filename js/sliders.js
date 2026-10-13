@@ -5,17 +5,17 @@
 const slider1Images = [
     "https://drive.google.com/file/d/1P99JJFJooXfbXdl_Nl9pnGXWiG3mcZ78/view?usp=sharing",
     "https://drive.google.com/file/d/1q0to8eaFVlSxN4N7-DYndhl31AEKPz_O/view?usp=sharing",
-    "images/3_p.jpg",
+    "https://drive.google.com/file/d/1hpZvIL397p524ac_FnMdyPWuFJqLUZlh/view?usp=sharing",
     "https://drive.google.com/file/d/1XH3Xk3q-dkNmKCMAMXr_EXnvqKMM2I-M/view?usp=sharing",
-    "images/5_p.jpg",
-    "images/6.jpg",
-    "images/7.jpg",
-    "images/8.jpg",
-    "images/9.jpg",
-    "images/10.jpg",
-    "images/11.jpg",
-    "images/13.jpg",
-    "images/ultima.jpg"
+    "https://drive.google.com/file/d/1zRT7JgSUDiOa99TBrsbXbCQjBWvs-ld8/view?usp=sharing",
+    "https://drive.google.com/file/d/1CK5LwkCbo2YnCXg54PHjo4N76viF1wD_/view?usp=sharing",
+    "https://drive.google.com/file/d/1phXt0zJm0hAaZcVXUigmTG405QDAcZY2/view?usp=sharing",
+    "https://drive.google.com/file/d/1PSLSVzAOa_pTQlZBVsuzAypL4iIY2LRW/view?usp=sharing",
+    "https://drive.google.com/file/d/1J240oGkcj6tOy02iiwJ_Jm20XwvJeL3K/view?usp=sharing",
+    "https://drive.google.com/file/d/1ajplr4v9leniFbyAg2ARFwYG-_fYfDfX/view?usp=sharing",
+    "https://drive.google.com/file/d/1kd1rqE-Y7FgqaWkMx9hSbNrF6x77s5As/view?usp=sharing",
+    "https://drive.google.com/file/d/1DUyzdsPWOIwKD_fG1bE25DejBPN3IU4d/view?usp=sharing",
+    "https://drive.google.com/file/d/1eAI0hbO8ccGWRrJ4tT4ISAwOVjpuSfPX/view?usp=sharing"
 ];
 
 let index1 = 0;
