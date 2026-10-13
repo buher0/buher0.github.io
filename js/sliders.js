@@ -145,12 +145,12 @@ if (slider4) {
 ========================================================= */
 
 const slider5Images = [
-    "images/pl_1.jpg",
-    "images/pl_2.jpg",
-    "images/pl_3.jpg",
-    "images/pl_4.jpg",
-    "images/pl_5.jpg",
-    "images/pl_6.jpg"
+    "https://drive.google.com/file/d/1sbTkfnxxFC2TS2_HrWP9RuPmUvHE4RGK/view?usp=sharing",
+    "https://drive.google.com/file/d/1lwuFsq_a7iJSVgBGzNdRRPh4nB_4uWK4/view?usp=sharing",
+    "https://drive.google.com/file/d/1T3C9ffB3UammvNV9zosamveBjQhBNgHR/view?usp=sharing",
+    "https://drive.google.com/file/d/1HnJQEE6EEzlZnTactb5Zgt3SOkRGGDIX/view?usp=sharing",
+    "https://drive.google.com/file/d/1FICK_9BHXOmyslfHw2Mksg4sphHDfClv/view?usp=sharing",
+    "https://drive.google.com/file/d/1KRkxIJkFqoJ4vm920FIZp2_W20tyt8MB/view?usp=sharing"
 ];
 
 let index5 = 0;
@@ -179,7 +179,7 @@ if (slider5) {
 ========================================================= */
 
 const slider6Images = [
-    "images/pl_7.jpg",
+    "https://drive.google.com/file/d/1V49GUlvyCm0cth0UeC_LdHUa5WBeYhVN/view?usp=sharing",
     "images/pl_8.jpg",
     "images/pl_9.jpg",
     "images/pl_10.jpg",
