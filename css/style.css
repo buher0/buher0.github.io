@@ -516,74 +516,114 @@ height: 20%;
 
 
 
+/* VIDEO GRID BASE */
+
 .video-grid {
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 10px;
-
+    gap: 12px;
     width: 100%;
-    max-width: 100%;
-    box-sizing: border-box;
+    align-items: stretch;
+    margin-bottom: 24px;
 }
 
-
-
-.video-grid2 {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 10px;
-
-    width: 100%;
-    max-width: 100%;
-    box-sizing: border-box;
-}
-
-.video-grid3 {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 10px;
-
-    width: 100%;
-    max-width: 100%;
-    box-sizing: border-box;
-}
-
-
-
-.left-videos {
-    display: grid;
-    grid-template-rows: 1fr 1fr;
-    gap: 10px;
+.video-stack {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
     min-width: 0;
 }
 
-
-.left-videos2 {
-    display: grid;
-    grid-template-rows: 2fr 2fr;
-    gap: 10px;
+.video-large {
     min-width: 0;
+    min-height: 0;
 }
 
-
-
-.right-video {
-    min-width: 0;
-}
-
-.video-grid video {
+.video-grid iframe {
     display: block;
     width: 100%;
-    max-width: 100%;
+    height: auto;
+    aspect-ratio: 16 / 9;
+    border: 0;
+}
+
+/* GRID 1: SMALL LEFT VIDEOS, DOUBLE-WIDTH RIGHT VIDEO */
+
+.grid-one {
+    grid-template-columns: 1fr 2fr;
+}
+
+.grid-one .video-stack {
+    justify-content: space-between;
+}
+
+.grid-one .video-stack iframe {
+    flex: 1;
+    min-height: 0;
+}
+
+.grid-one .video-large iframe {
     height: 100%;
-    object-fit: cover;
-    box-sizing: border-box;
+    aspect-ratio: auto;
 }
 
-.left-videos video {
-    min-width: 0;
+/* GRID 2: LARGE LEFT VIDEO, SMALL RIGHT VIDEOS */
+
+.grid-two {
+    grid-template-columns: 2fr 1fr;
 }
 
+.grid-two .video-large iframe {
+    height: 100%;
+    aspect-ratio: auto;
+}
+
+.grid-two .video-stack {
+    justify-content: space-between;
+}
+
+.grid-two .video-stack iframe {
+    flex: 1;
+    min-height: 0;
+}
+
+/* GRID 3 */
+
+.grid-three {
+    grid-template-columns: 2fr 1fr;
+}
+
+.grid-three .video-stack iframe {
+    flex: 1;
+    min-height: 0;
+}
+
+.grid-three .video-large iframe {
+    height: 100%;
+    aspect-ratio: auto;
+}
+
+/* MOBILE */
+
+@media (max-width: 700px) {
+    .video-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .grid-one .video-large iframe,
+    .grid-two .video-large iframe,
+    .grid-three .video-large iframe {
+        aspect-ratio: 16 / 9;
+        height: auto;
+    }
+
+    .grid-one .video-stack iframe,
+    .grid-two .video-stack iframe,
+    .grid-three .video-stack iframe {
+        flex: initial;
+        aspect-ratio: 16 / 9;
+        height: auto;
+    }
+}
 
 
 
